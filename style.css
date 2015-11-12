@@ -1,0 +1,62 @@
+body {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 1.2;
+  font-weight: 400;
+	background-color: #ffffff;
+	color: #333333;
+	width: 640px;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 40px;
+}
+
+footer {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+div.wrap {
+  width: 640px;
+  overflow:  hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+a:hover {
+  font-family: Arial;
+  font-size: 20px;
+  color: #000000;
+}
+
+@media (max-width: 710px) {
+  div.wrap {
+    width: 420px;
+    }
+  body {
+    font-size:16px;
+  }
+  header {
+  top: 5px;
+  left: 20px;
+}
+ 
+  footer {
+  bottom: 20px;
+  left: 20px;
+} 
+  
+  @media (max-width: 460px) {
+  div.wrap {
+    width: 280px;
+    }
+  body {
+    font-size:16px;
+  }

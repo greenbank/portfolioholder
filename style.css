@@ -36,6 +36,11 @@ a:hover {
   color: #000000;
 }
 
+.not-a-robot {
+  width: 260px;
+  padding-bottom: 10px;
+}
+
 @media (max-width: 710px) {
   div.wrap {
     width: 420px;

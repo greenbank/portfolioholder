@@ -22,7 +22,7 @@ footer {
 
 div.wrap {
   width: 640px;
-  overflow:  hidden;
+  overflow: visible;
 }
 
 a {
@@ -39,7 +39,8 @@ a:hover {
 .not-a-robot {
   width: 260px;
   padding-bottom: 10px;
-}
+  }
+
 
 @media (max-width: 710px) {
   div.wrap {
